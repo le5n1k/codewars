@@ -27,7 +27,7 @@ function anagramDifference(w1,w2){
     }
 
     let ans=0;
-    for(i=0;i<26;i++)
+    for(let i=0;i<26;i++)
         ans+=Math.abs(count1[i]-count2[i]);
     return ans;
 }
