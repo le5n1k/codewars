@@ -20,9 +20,7 @@ function digR(n) {
     let ans=0;
     while (n > 9) {
         ans += n % 10;
-        console.log(ans);
         n = Math.floor(n / 10);
-        console.log(n);
     }
     ans+=n;
     return ans;
