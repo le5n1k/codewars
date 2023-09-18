@@ -19,4 +19,4 @@ function factors(x){
     return arr;
 }
 
-console.log(factors(0));
+console.log(factors(42));
