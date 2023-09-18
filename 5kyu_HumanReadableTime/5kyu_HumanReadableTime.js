@@ -15,7 +15,7 @@ function humanReadable (seconds) {
     let ss,ssa="";
 
     hh = Math.floor(seconds/3600);
-    console.log(hh);
+    //console.log(hh);
     if(hh===0) {
         hha+="00:";
     }
@@ -27,7 +27,7 @@ function humanReadable (seconds) {
     }
     seconds=seconds%3600;
     mm=Math.floor(seconds/60);
-    console.log(mm);
+    //console.log(mm);
     if(mm===0) {
         mma+="00:";
     }
@@ -39,7 +39,7 @@ function humanReadable (seconds) {
     }
     seconds=seconds%60;
     ss=seconds;
-    console.log(ss);
+    //console.log(ss);
     if(ss===0) {
         ssa+="00";
     }
@@ -52,4 +52,4 @@ function humanReadable (seconds) {
     return hha+mma+ssa;
 }
 
-console.log(humanReadable(86400));
+console.log(humanReadable(99999999));

@@ -24,8 +24,8 @@ function scramble(str1, str2) {
     for (let i= 0;i<str2.length;i++) {
         count2[str2[i].charCodeAt(0) - 97]++;
     }
-    console.log(count1);
-    console.log(count2);
+    //console.log(count1);
+    //console.log(count2);
     let b=true;
     for(let i=0;i<26;i++) {
         if(count1[i]<count2[i]) {
@@ -36,5 +36,5 @@ function scramble(str1, str2) {
     return b;
 }
 
-console.log(scramble("asdd","asddd"));
+console.log(scramble("lidanagorilla","danil"));
 
