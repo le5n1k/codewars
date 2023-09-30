@@ -52,4 +52,4 @@ function humanReadable (seconds) {
     return hha+mma+ssa;
 }
 
-console.log(humanReadable(99999999));
+console.log(humanReadable(72000));
