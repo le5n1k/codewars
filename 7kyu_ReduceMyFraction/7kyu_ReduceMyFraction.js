@@ -1,6 +1,4 @@
 function reduce(fraction) {
-    let temp = fraction[0] - 1;
-
     if (fraction[0] < fraction[1]) {
         for (let i = fraction[0]; i > 2; i--) {
             if (fraction[0] % i === 0 && fraction[1] % i === 0) {
